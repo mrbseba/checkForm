@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+    <!--Heading for meta info-->
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- CSS Link -->
+        <link rel="stylesheet" href="style.css">
+        <title>Form Check</title>
+        
+    </head>
+    <!--Body for main content-->
+    <body>
+        <div class="container">
+            <div class="subFirst">
+                <form name="Form">
+                    <h1>Regist Form</h1>
+                    <!-- First Name -->
+                    <label for="firstName">First Name</label>
+                    <input type="text" name="firstName" id="firstName" required>
+                    <!-- Last Name -->
+                    <label for="lastName">Last Name</label>
+                    <input type="text" name="lastName" id="lastName">
+                    <!-- Nickname -->
+                    <label for="nickName">Nickname</label>
+                    <input type="text" name="nickName" id="nickName">
+                    <!-- Email -->
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email">
+                    <!-- Number -->
+                    <label for="numPhone">Number Phone</label>
+                    <input type="tel" name="numPhone" id="numPhone"  >
+                    <!-- Birthday -->
+                    <label for="birthDay">Birthday</label>
+                    <input type="date" name="birthDay" id="birthDay">
+                    <!-- Country -->
+                    <label for="country">Country</label>
+                    <input type="text" name="country" id="country">
+                    <!-- Password -->
+                    <label for="password">Password</label>
+                    <input type="password" name="password" id="passFirst"  autocomplete="off">
+                    <!-- Repeat Password -->
+                    <label for="password">Repeat Password</label>
+                    <input type="password" name="rePassword" id="rePass" autocomplete="off">
+                    <!-- Script for showing password -->
+                    <div class="subFirstOne">
+                        <label for="showPass">Show Password</label>
+                        <input type="checkbox" onclick="showPassword()" name="showPass" id="showPass">
+                    </div>
+                    <!-- Input for submit data -->
+                    <input type="button" value="Submit" onclick="saveFile()">
+                </form>
+            </div>
+        </div>
+    </body>
+            
+    <!--The bottom part of contentent and JS-->
+    <footer>
+        <script src="app.js"></script>
+    </footer>
+</html>
+<!--Contact API-->   
+<!-- <a href="tel:+37362067493"> Call number! </a>
+<a href="sms:+37362067493body=Hello%20there!"> Compose SMS! </a> -->

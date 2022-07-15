@@ -1,0 +1,38 @@
+.container {
+  margin: 0% 10% 0% 10%;
+}
+.container .subFirst {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.container .subFirst form label {
+  font-weight: bold;
+}
+.container .subFirst form input[type=text], .container .subFirst form [type=email], .container .subFirst form [type=password], .container .subFirst form [type=tel], .container .subFirst form [type=date] {
+  margin: 1% 0% 1% 0%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.container .subFirst form input[type=button] {
+  margin: 2% 0% 1% 0%;
+  border-radius: 5px;
+  padding: 2%;
+  width: 100%;
+}
+.container .subFirst form input {
+  padding: 1% 1% 1% 2%;
+}
+
+form {
+  border-color: #000;
+  border-width: 2px;
+  border-style: solid;
+  border-radius: 10px;
+  padding: 0% 2% 5% 2%;
+}
+
+#birthDay {
+  width: 97%;
+}/*# sourceMappingURL=style.css.map */
